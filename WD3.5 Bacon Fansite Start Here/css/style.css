@@ -19,3 +19,7 @@ img{
 #heading {
     color:blue;
 }
+
+.circular{
+    border-radius: 100%;
+}
