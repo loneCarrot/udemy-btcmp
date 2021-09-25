@@ -60,29 +60,70 @@ h1{
 /*features*/
 
 #features{
+    padding: 7% 15%;
+}
+
+.feature-box{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
 }
 
 h3{
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem !important;
     font-weight: bold !important;
 }
 
 p{
     color: #8f8f8f;
-    padding: 5% 20% 10% ;
     
 }
 
-.fas{
+.icon{
     color:#e18172;
     font-size: 2.5rem;
-    padding: 20% 5% 5%;
+    margin-bottom: 1rem;
     
 }
 
-.fas:hover{
+.icon:hover{
     color: #ff4c68;
 }
 
+
+/* Testomonial section */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #e18172;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #e18172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 15px;
+}
