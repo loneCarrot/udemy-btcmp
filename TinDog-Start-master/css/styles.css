@@ -1,25 +1,52 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif!important;
+    text-align: center !important;
 }
 
-h1{
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold !important;
+}
+
+p{
+    color: #8f8f8f; 
+}
+
+/* Headings */
+
+.big-heading{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900 !important; 
 }
 
-.container-fluid{
-    padding:3% 15% !important;
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
-#title{
+.container-fluid{
+    padding:7% 15% !important;
+    
+}
+
+/* Sections */
+
+.colored-section{
     background-color: #ff4c68;
     color: #fff;
-
 }
 
 
+.white-section{
+    background-color: #fff;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%!important;
+    text-align: left;
+}
 
 /*Navigation bar*/
 
@@ -50,38 +77,35 @@ h1{
     margin: 5% 3% 5% 0;
 }
 
-/*title Image*/
+/*title section*/
 
 .phone-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+}
+
+.title-img-container{
+    position: relative;
 }
 
 /*features*/
 
 #features{
-    padding: 7% 15%;
+    position:relative;
+}
+
+.feature-title{
+    font-size: 1.5rem!important;
 }
 
 .feature-box{
-    text-align: center;
     padding: 5%;
-}
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem !important;
-    font-weight: bold !important;
-}
-
-p{
-    color: #8f8f8f;
-    
 }
 
 .icon{
     color:#e18172;
-    font-size: 2.5rem;
     margin-bottom: 1rem;
     
 }
@@ -94,18 +118,14 @@ p{
 /* Testomonial section */
 
 #testimonials{
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #e18172;
-    color: #fff;
+    background-color: #ef8172;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem !important;
-    font-weight: bold !important;
-    line-height: 1.5 !important;
+.testimonial-text{
+    font-size: 3rem!important;
+    line-height: 1.5;
 }
+
 
 .testimonial-image{
     width: 10%;
@@ -113,17 +133,45 @@ h2{
     margin:20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
-
 #press{
     background-color: #e18172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
 .press-logo{
     width:15%;
     margin: 20px 20px 15px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding:100px;
+}
+
+.price-text{
+    font-size: 3rem!important;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding:3% 2%;
+    
+}
+
+@media (max-width: 1028px) {
+    #title .container-fluid{
+        text-align: center;
+    }
+    .phone-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* footer section */
+
+.footer-icon{
+    margin: 20px 10px; 
 }
